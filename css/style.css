@@ -56,6 +56,20 @@ html {
   }
 }
 
+/* All Sections */
+
+.section-heading {
+  font-size: 35px;
+  text-align: center;
+  color: var(--colorPrimary);
+  text-transform: uppercase;
+  font-family: "Trajan_Pro_Bold";
+}
+.sub-heading {
+  color: var(--colorSecondary);
+  font-family: "Trajan_Pro_Bold";
+}
+
 /* Slider */
 #slider {
   margin-top: 80px;
@@ -72,16 +86,15 @@ html {
   width: 100% !important;
 }
 
-/*  */
-
-.section-heading {
-  font-size: 35px;
-  text-align: center;
-  color: var(--colorPrimary);
-  text-transform: uppercase;
-  font-family: "Trajan_Pro_Bold";
+/* Desktop */
+@media only screen and (min-width: 990px) {
+  .mobile-slider {
+    display: none;
+  }
 }
-.sub-heading {
-  color: var(--colorSecondary);
-  font-family: "Trajan_Pro_Bold";
+/* Mobile */
+@media only screen and (max-width: 990px) {
+  .desktop-slider {
+    display: none;
+  }
 }

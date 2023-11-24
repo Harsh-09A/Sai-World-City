@@ -114,10 +114,10 @@
     <main>
       <!-- Slider Section -->
       <section id="slider">
-        <!-- Slider -->
+        <!-- Desktop Slider -->
         <div
           id="carousel-Indicators"
-          class="carousel slide"
+          class="carousel slide desktop-slider"
           data-bs-ride="carousel">
           <div class="carousel-indicators">
             <button
@@ -178,6 +178,71 @@
             <span class="visually-hidden">Next</span>
           </button>
         </div>
+
+        <!-- Mobile Slider -->
+        <div
+          id="carousel-Indicators-Mobile"
+          class="carousel slide mobile-slider"
+          data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carousel-Indicators-Mobile"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"></button>
+            <button
+              type="button"
+              data-bs-target="#carousel-Indicators-Mobile"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"></button>
+            <button
+              type="button"
+              data-bs-target="#carousel-Indicators-Mobile"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src="img/banner/Mobile-Banner-01.jpg"
+                class="d-block w-100 img-fluid"
+                alt="Banner1"
+                onerror="this.src='img/placeholder/placeholder.jpg'" />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="img/banner/Mobile-Banner-02.jpg"
+                class="d-block w-100 img-fluid"
+                alt="Banner2"
+                onerror="this.src='img/placeholder/placeholder.jpg'" />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="img/banner/Mobile-Banner-03.jpg"
+                class="d-block w-100 img-fluid"
+                alt="Banner3"
+                onerror="this.src='img/placeholder/placeholder.jpg'" />
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carousel-Indicators-Mobile"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carousel-Indicators-Mobile"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
       </section>
 
       <!--Overview Section  -->
@@ -215,7 +280,37 @@
         <h5 class="sub-heading text-center">
           A GLOBAL LIFESTYLE THE SIGNATURE ADDRESS OF AN INTEGRATED WORLD
         </h5>
+        <!-- Highlights -->
+        <div class="container text-center pt-5">
+          <div class="row">
+            <div class="col">
+              <img src="/img/highlights/icon1.webp" alt="" />
+              <p>Mega Township</p>
+            </div>
+            <div class="col">
+              <img src="/img/highlights/icon2.webp" alt="" />
+              <p>High-rise Towers</p>
+            </div>
+            <div class="col">
+              <img src="/img/highlights/icon3.webp" alt="" />
+              <p>Cosmo-luxury Lifestyle</p>
+            </div>
+            <div class="col">
+              <img src="/img/highlights/icon4.webp" alt="" />
+              <p>50,000 Sq.Ft. of Club Vegas</p>
+            </div>
+            <div class="col">
+              <img src="/img/highlights/icon5.webp" alt="" />
+              <p>World-class Amenities</p>
+            </div>
+            <div class="col">
+              <img src="/img/highlights/icon6.webp" alt="" />
+              <p>2, 2.5, 3 & 4 BHK Homes</p>
+            </div>
+          </div>
+        </div>
       </section>
+
       <aside></aside>
     </main>
     <footer></footer>
