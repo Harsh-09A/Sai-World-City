@@ -117,6 +117,7 @@ html {
   color: #fff;
   margin-bottom: 25px;
   padding-bottom: 10px;
+  font-size: 13px;
   /*border-bottom: 1px solid #ffffff6e;
     width: 400px;*/
 }
@@ -152,9 +153,12 @@ html {
   color: #fff;
 }
 
-.features-inner {
+/* .features-inner {
   color: #fff;
   margin-bottom: 25px;
   padding-bottom: 10px;
   font-size: 13px;
-}
+} */
+
+/* Walkthrough */
+/*virtual tour*/
