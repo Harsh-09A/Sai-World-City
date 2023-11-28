@@ -1,3 +1,8 @@
+// Gallery
+Fancybox.bind('[data-fancybox="gallery"]', {
+  // Your custom options
+});
+
 function myFunction() {
   var dots = document.getElementById("dots");
   var moreText = document.getElementById("more");
@@ -108,3 +113,9 @@ function myFunction7() {
     moreText.style.display = "inline";
   }
 }
+
+$(window).ready(function () {
+  setTimeout(function () {
+    $("#popupModal").modal("show");
+  }, 3000);
+});

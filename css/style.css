@@ -86,6 +86,10 @@ html {
   width: 100% !important;
 }
 
+.carousel-indicators .active {
+  background-color: var(--colorSecondary) !important;
+}
+
 /* Desktop */
 @media only screen and (min-width: 990px) {
   .mobile-slider {
@@ -153,12 +157,80 @@ html {
   color: #fff;
 }
 
-/* .features-inner {
-  color: #fff;
-  margin-bottom: 25px;
-  padding-bottom: 10px;
-  font-size: 13px;
-} */
-
 /* Walkthrough */
-/*virtual tour*/
+
+/* .tab-buttons {
+  text-align: center;
+  color: #be1d7a !important;
+  padding: 6px 30px;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 500;
+  border: 0.5px solid #ced1d4;
+  border-radius: 60px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  line-height: 30px;
+
+  margin: 10px;
+}
+
+.tab-buttons .active,
+.tab-buttons .active .tab-buttons:hover,
+.tab-buttons .active .tab-buttons:focus {
+  background-color: #722b91;
+  border: none;
+  border-bottom-color: transparent;
+  cursor: default;
+  border-radius: 60px;
+  margin-bottom: 20px;
+  color: #fff !important;
+} */
+/*  */
+
+#walkthrough .nav > li > a {
+  background: var(--colorWhite);
+  color: #be1d7a !important;
+  border-radius: 60px;
+  text-align: center;
+  padding: 10px 40px;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 500;
+  border: 0.5px solid #ced1d4;
+  border-radius: 60px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 10px;
+}
+
+#walkthrough .nav > li > a:hover,
+#walkthrough .nav > li > a:focus,
+#walkthrough .nav .active {
+  background: #722b91;
+  color: #fff !important;
+}
+
+/* Configuration */
+
+.config-inner {
+  text-align: center;
+  font-weight: normal;
+  padding: 10px;
+  margin-top: 20px;
+  -webkit-box-shadow: 0px 0px 7px 0px rgba(212, 210, 212, 1);
+  -moz-box-shadow: 0px 0px 7px 0px rgba(212, 210, 212, 1);
+  box-shadow: 0px 0px 7px 0px rgba(212, 210, 212, 1);
+  border-radius: 30px 0px 30px 0px;
+}
+.config-price {
+  background: #be1d7a;
+  width: 75%;
+  margin: 15px auto;
+  padding: 8px;
+  text-transform: uppercase;
+  border-radius: 15px 0px;
+}
+
+.config-price a {
+  text-decoration: none;
+  color: var(--colorWhite);
+}
