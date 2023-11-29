@@ -730,55 +730,108 @@
         </div>
 
         <!-- Switch Tabs Amenities -->
-        <div class="d-flex justify-content-center">
-          <ul class="nav nav-pills mb-3" id="pills-tabami" role="tablist">
-            <li class="nav-item">
+        <div class="d-flex justify-content-center mt-5">
+          <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+            <li class="nav-item" role="presentation">
               <a
-                class="nav-link text-uppercase active"
-                id="pills-internal-amenities"
+                class="nav-link active text-uppercase"
+                id="pills-internal-tab"
                 data-bs-toggle="pill"
-                data-bs-target="#internal"
+                data-bs-target="#pills-internal"
                 role="tab"
-                aria-controls="internal-amenities"
+                aria-controls="pills-internal"
                 aria-selected="true">
                 Internal Amenities
               </a>
             </li>
 
-            <li class="nav-item">
+            <li class="nav-item" role="presentation">
               <a
                 class="nav-link text-uppercase"
-                id="pills-external-amenities"
+                id="pills-external-tab"
                 data-bs-toggle="pill"
-                data-bs-target="#external-amenities"
+                data-bs-target="#pills-external"
                 role="tab"
-                aria-controls="external-amenities"
+                aria-controls="pills-external"
                 aria-selected="false">
                 External Amenities
               </a>
             </li>
           </ul>
         </div>
-        <!-- Content -->
-        <div class="tab-content" id="pills-tabAmiContent">
+
+        <div class="tab-content" id="pills-tabAmenContent">
           <div
             class="tab-pane fade show active"
-            id="gal"
+            id="pills-internal"
             role="tabpanel"
-            aria-labelledby="pills-gal"
+            aria-labelledby="pills-internal-tab"
             tabindex="0">
-            <h1>Internal ami</h1>
+            Internal Amenities
           </div>
           <div
-            class="tab-pane fade show active"
-            id="external-amenities"
+            class="tab-pane fade"
+            id="pills-external"
             role="tabpanel"
-            aria-labelledby="external-amenities"
+            aria-labelledby="pills-external-tab"
             tabindex="1">
-            <h1>Internal ami</h1>
+            External Amenities
           </div>
         </div>
-        <div></div>
+      </section>
+
+      <!-- Walkthrough Section -->
+      <section id="walkthrough_section" class="container p-4 mt-3 mb-3">
+        <!-- Switch Tabs Amenities -->
+
+        <div class="d-flex justify-content-center mt-5">
+          <ul class="nav nav-pills mb-3" id="pills-tab-walk-sec" role="tablist">
+            <li class="nav-item" role="presentation">
+              <a
+                class="nav-link active text-uppercase"
+                id="pills-virtual-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#pills-virtual"
+                role="tab"
+                aria-controls="pills-virtual"
+                aria-selected="true">
+                Virtual
+              </a>
+            </li>
+
+            <li class="nav-item" role="presentation">
+              <a
+                class="nav-link text-uppercase"
+                id="pills-walkthrough-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#pills-walkthrough"
+                role="tab"
+                aria-controls="pills-walkthrough"
+                aria-selected="false">
+                Walkthrough
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="tab-content" id="pills-tabAmenContent">
+          <div
+            class="tab-pane fade show active"
+            id="pills-virtual"
+            role="tabpanel"
+            aria-labelledby="pills-virtual-tab"
+            tabindex="0">
+            Virtual Site Visit
+          </div>
+          <div
+            class="tab-pane fade"
+            id="pills-walkthrough"
+            role="tabpanel"
+            aria-labelledby="pills-walkthrough-tab"
+            tabindex="1">
+            Walkthrough
+          </div>
+        </div>
       </section>
     </main>
     <footer></footer>
