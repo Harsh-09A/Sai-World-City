@@ -71,7 +71,7 @@ html {
 }
 
 /* Slider */
-#slider {
+#slider_section {
   margin-top: 80px;
   min-height: 80vh;
 }
@@ -105,7 +105,7 @@ html {
 
 /* Features */
 
-#features {
+#features_section {
   background: url("../img/backgrounds/features.webp");
   background-repeat: no-repeat;
   background-size: cover;
@@ -187,7 +187,7 @@ html {
 } */
 /*  */
 
-#walkthrough .nav > li > a {
+#gallery_section .nav > li > a {
   background: var(--colorWhite);
   color: #be1d7a !important;
   border-radius: 60px;
@@ -202,9 +202,9 @@ html {
   margin: 10px;
 }
 
-#walkthrough .nav > li > a:hover,
-#walkthrough .nav > li > a:focus,
-#walkthrough .nav .active {
+#gallery_section .nav > li > a:hover,
+#gallery_section .nav > li > a:focus,
+#gallery_section .nav .active {
   background: #722b91;
   color: #fff !important;
 }
