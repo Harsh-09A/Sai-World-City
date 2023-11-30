@@ -42,7 +42,7 @@
     class="scrollspy"
     tabindex="0"
     data-offset="1">
-    <header class="fixed-top">
+    <header class="fixed-top shadow-sm">
       <nav
         class="navbar navbar-expand-lg mx-auto"
         style="background-color: #ffffff"
@@ -1178,20 +1178,115 @@
       </section>
 
       <!-- About Section -->
-      <section id="about_section" class="container p-4 mt-3 mb-3">
+      <section id="about_section" class="container-fluid p-4 mt-3">
         <div class="about_overlay">
-          <div class="container">
+          <div class="container pt-2">
             <div class="row">
-              <div class="col">
-                <div>
+              <div class="col p-5">
+                <div class="text-center">
                   <h3 class="section-heading text-white">PARADISE GROUP</h3>
                   <h5 class="sub-heading text-center">
                     PERFECT PAST, PRESTIGIOUS PRESENT, PROGRESSIVE FUTURE
                   </h5>
+                  <img src="img/logo/logo_white.webp" alt="" width="150px" />
+                  <div class="text-white">
+                    <p>
+                      It's been a long yet fruitful journey for Paradise Group.
+                      We began more than three decades ago with a clear aim of
+                      providing lavish and appealing spaces for all to dwell. We
+                      have come a long way after constructing more than 100
+                      successful projects across Navi Mumbai as of today's date.
+                      This rendezvous of more than 30 years has made us a team
+                      of highly experienced construction experts. Keeping
+                      abreast with the latest technology and implementation of
+                      world-class techniques are the reasons why our structures
+                      are not just luxuriously designed marvels, but also
+                      perfect specimens of 'beauty with quality'.
+                    </p>
+                    <span id="dots8" style="display: inline"></span>
+                    <span id="more8" style="display: none">
+                      <p>
+                        With structures that are a beautiful mix of high-end
+                        luxuries and modern amenities and pose an elegant touch
+                        of culture, we have attempted to make this world a
+                        better place to live in. Our past has been glorious and
+                        made us proud in constructing 5 Million Sq. Ft. of land
+                        area that gave our customers best places to live an
+                        enhanced life. At present we are developing over 12.5
+                        Million Sq. Ft. of land area across prime locations of
+                        Navi Mumbai and Mumbai like Kharghar, Panvel, Taloja,
+                        Ulwe, Dronagiri, Dombivali, Kalyan and Lonavala
+                        providing highly innovative, state-of-the-art
+                        construction for the classes as well as the masses. With
+                        an extremely progressive attitude, today we are forging
+                        ahead towards a bright future with a massive land bank
+                        of another 12.5 Million Sq. Ft. of through which we are
+                        committed to bring in a big change in present housing
+                        concepts. We are sure that our sincere efforts towards
+                        making this world a 'Paradise' will definitely become a
+                        pleasant reality in the near future.
+                      </p>
+                    </span>
+                  </div>
+                  <button onclick="myFunction8()" id="myBtn8">Read More</button>
+                  <br />
                 </div>
               </div>
 
-              <div class="col">One of three columns</div>
+              <div class="col p-5">
+                <div class="text-center">
+                  <h3 class="section-heading text-white">CONTACT US</h3>
+                  <!-- Form -->
+                  <div class="enquire-section ps-5 pe-5">
+                    <div class="container">
+                      <form id="contact-form" class="text-center">
+                        <div class="mb-3">
+                          <label for="user_name" class="form-label">Name</label>
+                          <input
+                            type="text"
+                            class="form-control inputStyle shadow-none"
+                            name="user_name"
+                            id="user_name"
+                            placeholder="Name"
+                            autocomplete="off"
+                            required />
+                        </div>
+                        <div class="mb-3">
+                          <label for="user_email" class="form-label"
+                            >Email address</label
+                          >
+                          <input
+                            type="email"
+                            class="form-control inputStyle shadow-none"
+                            name="user_email"
+                            id="user_email"
+                            placeholder="Email Address"
+                            autocomplete="off" />
+                        </div>
+                        <div class="mb-3">
+                          <label for="contact_number" class="form-label"
+                            >Phone Number</label
+                          >
+                          <input
+                            type="tel"
+                            class="form-control inputStyle shadow-none"
+                            id="contact_number"
+                            name="contact_number"
+                            pattern="[0-9]{10}"
+                            placeholder="Phone Number"
+                            oninvalid="setCustomValidity('Please enter a valid phone number. e.g., 12345-67890')"
+                            oninput="setCustomValidity('')"
+                            required />
+                        </div>
+
+                        <button type="submit" class="btn btn-primary w-100">
+                          Submit
+                        </button>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -1199,7 +1294,54 @@
     </main>
 
     <!-- Footer -->
-    <footer></footer>
+    <footer id="footer">
+      <div class="container text-center text-white">
+        <div class="d-flex justify-content-center">
+          <div class="qrcode">
+            <img src="img/qr/1.png" class="" />
+            <p>
+              SAI WORLD CITY <br />
+              PHASE I - P52000006318
+            </p>
+          </div>
+          <div class="qrcode">
+            <img src="img/qr/1.png" class="" />
+            <p>
+              SAI WORLD CITY <br />
+              PHASE I - P52000006318
+            </p>
+          </div>
+        </div>
+        <div>
+          <p>
+            MahaRERA Registration No.: PHASE-1 - P52000006318 | PHASE-2 -
+            P52000022708
+          </p>
+          <img src="img/extras/maharera-new.webp" alt="" />
+          <p>
+            <a
+              href="https://maharera.mahaonline.gov.in"
+              style="color: #fff; text-decoration: none"
+              >maharera.mahaonline.gov.in</a
+            >
+          </p>
+          <p>
+            Site Address : Sai World City, Palaspe Phata Junction, Panvel - 410
+            206.
+          </p>
+          <p>
+            Corporate Office : Paradise Lifespaces LLP, 1701, Satra Plaza, Plot
+            No. 19 & 20, Sector - 19D, Vashi, Navi Mumbai.
+          </p>
+          <p>
+            Disclaimer : All the specification, design, facilities, dimensions,
+            etc. are subject to the approval of the respective authorities &
+            developers and would be changed if necessary. The discretion remains
+            with the developers.
+          </p>
+        </div>
+      </div>
+    </footer>
     <script
       defer
       src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>

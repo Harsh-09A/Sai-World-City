@@ -114,6 +114,21 @@ function myFunction7() {
   }
 }
 
+function myFunction8() {
+  var dots = document.getElementById("dots8");
+  var moreText = document.getElementById("more8");
+  var btnText = document.getElementById("myBtn8");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Read More ...";
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Read Less";
+    moreText.style.display = "inline";
+  }
+}
 $(window).ready(function () {
   setTimeout(function () {
     $("#popupModal").modal("show");
