@@ -1,8 +1,3 @@
-// Gallery
-Fancybox.bind('[data-fancybox="gallery"]', {
-  // Your custom options
-});
-
 function myFunction() {
   var dots = document.getElementById("dots");
   var moreText = document.getElementById("more");
