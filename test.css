@@ -142,3 +142,25 @@ a {
     font-weight: 300;
   }
 }
+
+/* Location */
+.location-features ul {
+  --icon-space: 1.3em;
+  list-style: none;
+  padding: 0;
+  text-align: start;
+}
+.location-features ul li {
+  padding-left: var(--icon-space);
+  background: url("/img/connectivity/airport.webp") no-repeat left center;
+  line-height: 5em;
+}
+
+.location-features ul li:before {
+  /* content: "\f00c"; FontAwesome Unicode */
+  /* content: "\f00c"; FontAwesome Unicode */
+  font-family: FontAwesome;
+  display: inline-block;
+  margin-left: calc(var(--icon-space) * -1);
+  width: var(--icon-space);
+}

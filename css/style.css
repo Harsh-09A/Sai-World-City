@@ -242,3 +242,25 @@ html {
   text-decoration: none;
   color: var(--colorWhite);
 }
+
+/* Location */
+
+.near-location {
+  padding-bottom: 25px;
+}
+.locations-left {
+  height: 524px;
+  overflow-y: auto;
+  text-align: start;
+}
+.near-location h4 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 5px;
+}
+
+.near-location ul {
+  /* padding-left: 0px; */
+  font-size: 14px;
+  /* font-weight: 200; */
+}
