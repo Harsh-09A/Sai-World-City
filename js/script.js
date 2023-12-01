@@ -15,6 +15,13 @@ Fancybox.bind('[data-fancybox="external_amenities"]', {
   // Custom options for the first gallery
 });
 
+// Popup Auto
+$(window).ready(function () {
+  setTimeout(function () {
+    $("#popupModal").modal("show");
+  }, 3000);
+});
+
 function myFunction() {
   var dots = document.getElementById("dots");
   var moreText = document.getElementById("more");
@@ -141,8 +148,3 @@ function myFunction8() {
     moreText.style.display = "inline";
   }
 }
-$(window).ready(function () {
-  setTimeout(function () {
-    $("#popupModal").modal("show");
-  }, 3000);
-});
