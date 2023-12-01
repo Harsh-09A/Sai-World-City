@@ -49,10 +49,15 @@ html {
 .nav-icon {
   margin-right: 5px;
 }
-@media only screen and (min-width: 990px) {
+@media only screen and (min-width: 1000px) {
   .navbar-nav .nav-link {
     font-size: 1.01vw !important;
     letter-spacing: 0.02vw;
+  }
+}
+@media screen and (max-width: 600px) {
+  .navbar-brand img {
+    height: 45px;
   }
 }
 
@@ -68,6 +73,14 @@ html {
 .sub-heading {
   color: var(--colorSecondary);
   font-family: "Trajan_Pro_Bold";
+}
+@media screen and (max-width: 600px) {
+  .section-heading {
+    font-size: 1.6em;
+  }
+  .sub-heading {
+    font-size: 1em;
+  }
 }
 
 /* Slider */
@@ -100,6 +113,16 @@ html {
 @media only screen and (max-width: 990px) {
   .desktop-slider {
     display: none;
+  }
+}
+
+/* Overview */
+.overview-para {
+  font-size: 14px;
+}
+@media screen and (max-width: 600px) {
+  .overview-para {
+    text-align: justify !important;
   }
 }
 
@@ -268,7 +291,13 @@ html {
   font-size: 14px;
   /* font-weight: 200; */
 }
+@media screen and (max-width: 600px) {
+  .locations-left {
+    margin-top: 2em;
+  }
+}
 
+/* About */
 #about_section {
   background: url("../img/backgrounds/aboutgroup.webp");
   background-repeat: no-repeat;
@@ -291,6 +320,22 @@ html {
   border-top: none;
   border-left: none;
   border-right: none;
+}
+.submit-btn,
+.submit-btn:hover,
+.submit-btn:focus-visible,
+.submit-btn:active {
+  background-color: var(--colorSecondary) !important;
+  border: none !important;
+}
+@media screen and (max-width: 600px) {
+  .enquire-section {
+    padding: 0 !important;
+  }
+  .about-para-container {
+    padding: 2em !important;
+    padding-top: 2em;
+  }
 }
 
 /* Footer */
@@ -336,9 +381,28 @@ html {
 .action-footer li {
   border-left: 1px solid var(--colorBlack);
 }
+
+.action-footer li:first-child {
+  border-left: none !important;
+}
 /* For Desktop */
 @media only screen and (min-width: 990px) {
   .action-footer {
     display: none;
   }
 }
+
+/* Tab Buttons */
+.tab-buttons li {
+  width: 18em;
+}
+@media screen and (max-width: 600px) {
+  .tab-buttons {
+    justify-content: center;
+  }
+  .tab-buttons li {
+    width: 90vw;
+  }
+}
+
+/* Modal */

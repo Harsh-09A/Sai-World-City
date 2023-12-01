@@ -1,3 +1,20 @@
+// fancy Box
+Fancybox.bind('[data-fancybox="gallery"]', {
+  // Custom options for the first gallery
+});
+
+Fancybox.bind('[data-fancybox="plans"]', {
+  // Custom options for the first gallery
+});
+
+Fancybox.bind('[data-fancybox="internal_amenities"]', {
+  // Custom options for the first gallery
+});
+
+Fancybox.bind('[data-fancybox="external_amenities"]', {
+  // Custom options for the first gallery
+});
+
 function myFunction() {
   var dots = document.getElementById("dots");
   var moreText = document.getElementById("more");
